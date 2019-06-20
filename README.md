@@ -3,19 +3,18 @@
 - **文本**
   - *加粗*  
     使用一对 双\*号 实现对文本内容加粗  
-    It's very easy to make some words \*\* bold \*\*.  
+    It's very easy to make some words \*\*bold\*\*.  
     It's very easy to make some words **bold**.  
     
   - *斜体*  
     使用一对 \* 号 实现将文本内容改为斜体  
-    It's easy to make other words \* italic \*,too.   
+    It's easy to make other words \*italic\*,too.   
     It's easy to make other words *italic*,too.  
     
   - *划线*  
     使用一对 双~ 号 将需要划线内容括住  
     \~\~Hello,world !\~\~  
-    ~~Hello,world !~~  
-    其中，文本与 双~号 必须相连  
+    ~~Hello,world !~~    
     
   - *超链接*  
     使用 \[文本\](链接) 的方式构造超链接  
@@ -23,8 +22,9 @@
     You can link to [GitHub](https://github.com)  
     
   - *补充*  
-    换行时，前一行末尾应保留两个空格，否则默认续行  
-    显示特殊符号时，应使用转义符  
+    - 换行时，前一行末尾应保留两个空格，否则默认续行  
+    - 显示特殊符号时，应使用转义符  
+    - 符号与文本之间不要有空格
   
   
 - **表单**  
@@ -73,6 +73,7 @@ Zero | One | Two
   
 - **代码块**  
   - *代码部分统一缩进 4 个空格*   
+  
         def func(x):  
             if x:  
                 return True  
