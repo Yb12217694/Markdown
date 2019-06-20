@@ -1,6 +1,6 @@
 # Markdown
 
-这篇 Markdown 仅总结了最简单的 Markdown 语法，虽然简单，但也很实用。更多的使用语法可以参见 Github 的 [Markdown 指南](https://guides.github.com/features/mastering-markdown/)以及网络资源.
+> 这篇 Markdown 仅总结了最简单的 Markdown 语法，虽然简单，但也很实用。更多的使用语法可以参见 Github 的 [Markdown 指南](https://guides.github.com/features/mastering-markdown/)以及网络资源.
 
 - **文本**
   - *加粗*  
